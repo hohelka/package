@@ -1,6 +1,6 @@
-﻿dataPath=C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode\data\data_all.csv
-resultPath=C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode\result
-predictDataPath=C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode\data\test_dz.csv
+﻿dataPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\data\data_all.csv
+resultPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\result
+predictDataPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\data\test_dz.csv
 header=True
 label=1$RM$-1
 n_components=2
