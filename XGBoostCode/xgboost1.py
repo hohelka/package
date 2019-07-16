@@ -95,7 +95,7 @@ def initial():
     print("Please input your configfile Path:\XGBoostCode下寻找configfile,Y/N: ")  # 读入配置文件路径
     path = input()
     if path == 'y' or path == 'Y':
-        folderPath = r'C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode'
+        folderPath = r'C:\Users\JiaYiHe\Documents\...\XGBoostCode'
     else:
         folderPath = input('reinput configfile path:')
 
@@ -149,15 +149,13 @@ def readConfigFile():
 
     # 配置data路径
     print('datapath:'+dataPath)
-    a=input('u can choose an other datapath:\n 1.C:\\Users\\JiaYiHe\Documents\\项目\\伊利\\伊利大数据项目三期\\'
-            '02需求分析\\02客户提供资料\\原奶预测模型\\XGBoostCode\\data\\data_all.csv'
-            '\n 2.C:\\Users\\JiaYiHe\Documents\\项目\\伊利\\伊利大数据项目三期\\'
-            '02需求分析\\02客户提供资料\\原奶预测模型\\XGBoostCode\\data\\2.csv\n'
+    a=input('u can choose an other datapath:\n 1.C:\\Users\\...\\XGBoostCode\\data\\data_all.csv'
+            '\n 2.C:\\Users\\...\\XGBoostCode\\data\\2.csv\n'
             '3. input new data path')
     if a==1 or a=='1':
-        dataPath=r'C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode\data\data_all.csv'
+        dataPath=r'C:\Users\...\XGBoostCode\data\data_all.csv'
     elif a==2 or a=='2':
-        dataPath=r'C:\Users\JiaYiHe\Documents\项目\伊利\伊利大数据项目三期\02需求分析\02客户提供资料\原奶预测模型\XGBoostCode\data\2.csv'
+        dataPath=r'C:\Users\...\XGBoostCode\data\2.csv'
     else:
         dataPath=input('dataPath: ')
 
