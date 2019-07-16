@@ -1,6 +1,6 @@
-﻿dataPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\data\data_all.csv
-resultPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\result
-predictDataPath=C:\Users\JiaYiHe\Documents\...\XGBoostCode\data\test_dz.csv
+﻿dataPath=C:\Users\...\XGBoostCode\data\data_all.csv
+resultPath=C:\Users\...\XGBoostCode\result
+predictDataPath=C:\Users\...\XGBoostCode\data\test_dz.csv
 header=True
 label=1$RM$-1
 n_components=2
